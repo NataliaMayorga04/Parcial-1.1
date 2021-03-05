@@ -9,6 +9,9 @@ Es cuando se ocultan las características internas de una clase, de tal forma qu
 MAPA DE MEMORIA 
 ![Mapa memoria Parcial ](https://user-images.githubusercontent.com/78512829/110180290-86539f80-7dd7-11eb-90b4-be524f0a5dbd.jpg)
 
+MAPAS DE SECUENCIA
+
+
 
               
             
