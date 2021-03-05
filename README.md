@@ -11,6 +11,8 @@ MAPA DE MEMORIA
 
 MAPAS DE SECUENCIA
 
+![Untitled Diagram (4)](https://user-images.githubusercontent.com/78512829/110185557-ab004500-7de0-11eb-9df4-21ba3ee4feab.png)
+
 
 
               
