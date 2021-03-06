@@ -49,5 +49,23 @@ public class SabanaResearch {
 
         return set isActive;
     }
-    public        
+    public int countOpenActivities(){
+        int opena=0;
+        for(Iteration i: this.iterations){
+            get countOpenActivities().size(opena);
+            return opena;
+        }
+    }
+
+    public void isActive(){
+        CheckActivity Activity = new "Yes" || "No";
+        for (Activity a : this.activities){
+            if (activity == activeT){
+                return Activity;
+            }
+            else (activity == activeF){
+                return null;
+            }
+        }
+    }
 }
