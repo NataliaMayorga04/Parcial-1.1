@@ -25,7 +25,9 @@ public class Activity {
      * @return true if the activity is in state pending or active, otherwise return false.
      */
     public boolean isActive() {
-        return false;
+        private void activeT= "True";
+        private void activeF= "False";
+        return isActive();
     }
 
 }

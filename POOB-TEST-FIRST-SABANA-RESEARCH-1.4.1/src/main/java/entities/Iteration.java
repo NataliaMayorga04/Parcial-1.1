@@ -19,6 +19,7 @@ public class Iteration {
 
     public void addActivity(Activity activity) {
         this.activities.add(activity);
+        public int opena =0;
     }
 
 }
