@@ -19,7 +19,11 @@ public class Iteration {
 
     public void addActivity(Activity activity) {
         this.activities.add(activity);
-        public int opena =0;
     }
-
+    public int countOpenActivities(){
+        return (int) this.activities.stream()
+                .map(activity -> activity.isActive())
+                .filter (b -> !b)
+                .count ();
+    }
 }

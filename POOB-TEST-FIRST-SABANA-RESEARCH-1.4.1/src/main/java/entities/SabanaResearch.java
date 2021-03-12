@@ -29,12 +29,17 @@ public class SabanaResearch {
      * @return The new Summary entry.
      */
     public Summary createSummaryEntry() {
-        for (i=0; i<summaries.size();i++){
-            if (groups.size()<summaries.size())
-            CurrentDate date = new date;
-        }
+        int activeProjects = this.groups
+                .stream()
+                .map(g ->g.countsActiveProjects())
+                .reduce(0.(a,b) -> a+b);
+
+
+        Summary summary = new Summary(activeProjects, LocalDate.now());
+        this.summaries.add(summary);
+        return summary;
     }
-    public double ap(){
+    /*public double ap(){
         double cap=0;
         for(Group g: this.groups)
             cap += g.ap();
@@ -67,5 +72,5 @@ public class SabanaResearch {
                 return null;
             }
         }
-    }
+    }*/
 }
